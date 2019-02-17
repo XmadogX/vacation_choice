@@ -1,0 +1,80 @@
+.click_day{
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  margin-top: -104px;
+}
+
+.day_number{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  line-height: 47px;
+  text-align: center;
+  font-weight: 500;
+  color: #2d2d2d;
+  border: solid 1px
+
+}
+.active_day_number{
+  background-color: #ff6d6d;
+  border-color: #ff3c3c;
+}
+.disabled_day_number{
+  background-color: #d2d2d2;
+  border-color: #9e9e9e;
+}
+.active_day{
+  border-color: #ff3c3c;
+}
+.disabled_day{
+  border-color: #9e9e9e;
+}
+.mount {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  user-select: none;
+}
+.day {
+  width: 100px;
+  height: 100px;
+  border-width: 1px;
+  border-style: solid;
+  margin: 1px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
